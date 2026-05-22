@@ -42,7 +42,7 @@ export default function FilterBar({
             <option value={"Highest"}>Sort: Highest Amount</option>
             <option value={"Lowest"}>Sort: Lowest Amount</option>
             <option value={"az"}>Sort: A - Z</option>
-            <option value={"za"}>Sort: Z - A Amount</option>
+            <option value={"za"}>Sort: Z - A</option>
           </select>
 
           <button

@@ -9,7 +9,7 @@ import Header from "./components/Header";
 function App() {
   const [expenses, setExpenses] = useState([]);
   const [filter, setFilter] = useState("All");
-  const [sorted, setSorted] = useState("Lowest");
+  const [sorted, setSorted] = useState("Newest");
 
   const filterExpenses =
     filter === "All"
